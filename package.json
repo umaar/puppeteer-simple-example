@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "start": "node index",
+    "update-deps": "ncu -u"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chrono-node": "^1.3.5",
-    "puppeteer": "^1.5.0"
+    "chrono-node": "^1.3.11",
+    "puppeteer": "^1.17.0"
   }
 }
